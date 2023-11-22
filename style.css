@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    user-select:none;
+}
+nav{
+    background-color: rgb(25, 24, 24);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.links a {
+    margin: 10px;
+}
+.links a:nth-child(1) img{
+    width:25px;  
+}
+.profileItems{
+    margin-top: 10px;
+    background-color:rgb(25, 24, 24) ;
+    width: 210px;
+    padding: 3px;
+    border-radius: 10px; 
+    position: absolute;
+    right: 10px;
+}
+
+.profileSousItems{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 2px;
+    margin-left: 38px;
+}
+.profileItems h3,.profileItems p:nth-child(2){
+    text-align: center;
+}
+.profileItems p:nth-child(2){
+    opacity: 0.5;
+    font-family:'Segoe UI';
+}
+.profileItems p:nth-child(7){
+    color: yellow;
+}
+.profileItems p:hover{
+    text-decoration: underline;
+}
+.active{
+    display: none;
+}
